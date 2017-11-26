@@ -4,7 +4,7 @@ const request = require('request');
 const argv = require('yargs').argv;
 let city = argv.c || 'Burlington';
 
-let apiKey = '7075dec4c77f8eeb5b0fafaa56a4716c';
+let apiKey = '*';
 
 let url  = re
 
