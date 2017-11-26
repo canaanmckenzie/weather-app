@@ -6,10 +6,11 @@ let city = argv.c || 'Burlington';
 
 let apiKey = '7075dec4c77f8eeb5b0fafaa56a4716c';
 
-let url  = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
+let url  = re
 
 
 request(url, function (err, response, body) {
+
   if(err){
 
     console.log('error:', error);
