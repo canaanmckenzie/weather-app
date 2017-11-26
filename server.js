@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 
-const apiKey = '7075dec4c77f8eeb5b0fafaa56a4716c';
+const apiKey = '*';
 
 
 //allow css rendering
