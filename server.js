@@ -2,6 +2,8 @@ const request = require('request');
 const bodyParser = require('body-parser');
 const express = require('express')
 const app = express()
+
+
 const apiKey = '7075dec4c77f8eeb5b0fafaa56a4716c';
 
 
@@ -17,7 +19,8 @@ app.set('view engine','ejs')
 
 app.get('/',function (req, res) {
 
-	res.render('index')
+	res.render('index', {weather: null, error: null});
+
 })
 
 
